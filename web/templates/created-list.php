@@ -104,7 +104,7 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                            <?php if (!$formData): ?>
+                                            <?php if ($isNew): ?>
                                                 <label class="Form-label u-spaceTopSmall">
                                                     Default list fields are Email, First Name and Last Name
                                                 </label>
